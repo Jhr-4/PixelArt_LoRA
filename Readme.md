@@ -1,14 +1,18 @@
 # 🖼️ 16x16 Pixel Art Item LoRA
 
-LoRA model trained with Khoya on Stable Diffusion 1.5. The purpose of this LoRA is to generate 16 by 16 pixel game assets.
+LoRA model trained with Khoya on Stable Diffusion 1.5. The purpose of this LoRA is to generate 16 by 16 pixel game assets. 
+
+While items may not be perfectly created, the LoRA is sucessful in creating the 16x16 blocky pixel style.
+
+![Image showing example output, comparing the LoRA and SD 1.5 output](Interface_Example.png)
 
 ## Usage
-To test and generate images, use the Gradio Google Colab  
+To test and generate images, use the [Google Colab Gradio](PixelArt_LoRA_Gradio.ipynb)  
 - Make sure to change your runtime type to a T4 GPU
 - Run each code block in order and then utilize the generated Gradio link
 
 **Prompting:**  
-For best results, use a comma-separated prompt.  
+For best results, use a comma-separated list.  
 Example: `diamond helmet, blue, weapon`
 
 ## Challenges/Limitations
