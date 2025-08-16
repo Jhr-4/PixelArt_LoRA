@@ -1,14 +1,19 @@
 # 🖼️ 16x16 Pixel Art Item LoRA
 
-LoRA model trained with Khoya on Stable Diffusion 1.5. The purpose of this LoRA is to generate 16 by 16 pixel game assets. 
+LoRA model trained with Khoya on Stable Diffusion 1.5. The purpose of this LoRA is to generate 16 by 16 pixel game asset items. 
 
-While items may not be perfectly created, the LoRA is sucessful in creating the 16x16 blocky pixel style.
+While items may not be perfectly created, the LoRA is sucessful in creating the 16x16 blocky pixel style. Below is an example with the LoRA on the left and SD 1.5 on the right (both scaled down to 16x16 pixels)
 
 ![Image showing example output, comparing the LoRA and SD 1.5 output](Interface_Example.png)
 
-## Usage
-To test and generate images, use the [Google Colab Gradio](PixelArt_LoRA_Gradio.ipynb)  
-- Make sure to change your runtime type to a T4 GPU
+## Usage 
+<a target="_blank" href="https://colab.research.google.com/github/Jhr-4/PixelArt_LoRA/blob/main/PixelArt_LoRA_Gradio.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+To test and generate images, use the Google Colab notebook which launches Gradio
+
+- On the notebook, make sure to change your runtime type to a T4 GPU
 - Run each code block in order and then utilize the generated Gradio link
 
 **Prompting:**  
@@ -21,9 +26,8 @@ Example: `diamond helmet, blue, weapon`
 
 ## Dataset Information
 
-**Minecraft 16x16 Textures**   
-Dataset by James-A  
-Based on Minecraft item textures    
+**16x16 Textures**   
+From Dataset by James-A + Additional Ones   
 https://huggingface.co/datasets/James-A/Minecraft-16x-Dataset
 
 **Kyrise's Free 16x16 Icon Pack**   
