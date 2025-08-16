@@ -1,4 +1,4 @@
-# 🖼️ 16x16 Pixel Art Item LoRA
+# 🖼️ 16x16 Pixel Art Items LoRA
 
 LoRA model trained with Khoya on Stable Diffusion 1.5. The purpose of this LoRA is to generate 16 by 16 pixel game asset items. 
 
